@@ -1,0 +1,23 @@
+{
+  "name": "dev-vnpay-helper",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/20206205Tech/dev-vnpay-helper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/20206205Tech/dev-vnpay-helper/issues"
+  },
+  "homepage": "https://github.com/20206205Tech/dev-vnpay-helper#readme",
+  "devDependencies": {
+    "rollup": "^4.59.0"
+  }
+}
