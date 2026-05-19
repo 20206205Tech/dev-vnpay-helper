@@ -6,7 +6,6 @@ export const ISS_MAP = {
   "https://umcfsqjxpmawkzwuhwdp.supabase.co/auth/v1": ENV_PROD,
 };
 
-// VNPAY Configuration
 export const VNPAY_CONFIG = {
   INDEX_URL: "https://sandbox.vnpayment.vn/paymentv2/Ncb/Transaction/Index.html",
   CONFIRM_URL: "https://sandbox.vnpayment.vn/paymentv2/Ncb/Transaction/Confirm.html",

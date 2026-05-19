@@ -1,6 +1,8 @@
+
+
 export function getCurrentPage() {
   const currentUrl = window.location.href;
-  
+
   if (currentUrl.includes("Index.html")) {
     return "INDEX";
   } else if (currentUrl.includes("Confirm.html")) {

@@ -1,4 +1,3 @@
-import { createUI } from "./createUI";
 import { processPayment } from "./processPayment";
 import { isVNPAYSandbox } from "./getCurrentPage";
 
@@ -9,11 +8,12 @@ function main() {
     return;
   }
 
-  // Khởi tạo UI
+  // Tự động chạy processPayment khi trang load xong
   window.addEventListener("load", function () {
-    createUI(() => {
+    // Delay 500ms để đảm bảo các field HTML đã render xong hoàn toàn
+    setTimeout(() => {
       processPayment();
-    });
+    }, 500);
   });
 }
 

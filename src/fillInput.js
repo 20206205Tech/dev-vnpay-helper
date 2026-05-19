@@ -1,4 +1,6 @@
-export function fillInput(selector, value) {
+
+
+function fillInput(selector, value) {
   const input = document.querySelector(selector);
   if (input) {
     input.value = value;

@@ -2,6 +2,9 @@ import { VNPAY_CONFIG } from "./config";
 import { fillCardInputs, fillOTPInput } from "./fillInput";
 import { getCurrentPage } from "./getCurrentPage";
 
+
+
+
 export function processPayment() {
   const currentPage = getCurrentPage();
 
